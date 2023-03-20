@@ -13,9 +13,9 @@
 #include <stdio.h>
 #include <assert.h>
 
-int main() {
+ int main() {
 
-	pbook b1 = creat_book("harry Potter",12345) ;
+ 	pbook b1 = creat_book("harry Potter",12345) ;
 	pbook b2= creat_book("C intro", 45678) ;
 	PAdptArray mybooks = CreateAdptArray(copy_book,delete_book,print_book);
 	SetAdptArrayAt(mybooks,3,b1);
@@ -45,4 +45,4 @@ int main() {
 	delete_person(p1);
 	delete_person(p2);
 	return 0;
-}
+ }
